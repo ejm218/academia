@@ -1,0 +1,160 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 10px;
+	padding: 10px;
+	width: 900px;
+	margin: 0 auto;
+	background-image: url("flamingos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content-main {
+	background-color: White;
+	border-left: 2px solid #ff5050;
+	border-right: 2px solid #ff5050;
+	border-bottom: 2px solid #ff5050;
+	padding: 7px;
+}
+
+header {
+	padding: 20px 0;
+	font-family: Arial Narrow, sans-serif;
+	background-color: #ffffff;
+	opacity: 0.8;
+	border: 2px solid #ff5050;
+}
+
+header .row, 
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-weight: 700;
+	margin: 10;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: small;
+}
+
+a {
+	padding: 0 20px;
+	margin: 0;
+}
+
+table { 
+	align: left;
+	overflow-y: scroll;
+	position: static;
+	padding: 5px;	
+	margin: 10px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+.date {
+	font-style: italic;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url("plants.jpg");
+	background-size: cover;
+	color: #ffffff;
+	height: 250px;
+	border-left: 2px solid #ff5050;
+	border-right: 2px solid #ff5050;
+	border-bottom: 2px solid #ff5050;
+}
+
+.jumbotron h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin: 10;
+	color: White;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+.jumbotron h3 {
+	margin: 0 20 20px;
+	color: White;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+section .row img {
+ 	margin: 0 0 30px;
+	width: 100%;
+}
+
+.col-md-6 {
+	margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+	border-radius: 2px;
+	border: 0px;
+	color: #000000;
+	background-color: #ff9999;
+	padding: 5px;
+	margin: 5 5 5 5;
+}
+
+.btn.btn-primary:hover {
+	color: #ffffff;
+	background-color: #fbd1d5;
+}
+
+.btn-secondary {
+	background-color: #2a70e0;
+	color: #ffffff;
+	margin: 0 0 30px;
+}
+
+.portrait {
+	width:  350px;
+	height: 300px;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+figure {
+	margin-bottom: 30px;
+}
+
+footer {
+	font-size: 12px;
+	padding-top: 10px;
+	border: 1.5px dotted #ff3377;
+	background-color: White;
+	opacity: 0.7;
+	margin: 10;
+}
+
+footer .col-sm-8 {
+	display: flex;
+}
+
+footer .row {
+	justify-content: center;
+}
+
+form {
+	padding: 10px;
+}
