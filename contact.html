@@ -30,23 +30,24 @@
 		</section>
 		<div class = "content-main">
 			<p >You may use the form below to contact me.</p>
-			<form method = "POST" action = "mail.php">
+			<form name = "input" method = "POST" action = "https://formspree.io/ejm@disroot.org">
 				<div class = "form-row">
 					<div class = "col">
-						<input type = "text" id = "name" class = "form-control" placeholder = "Name" required>
+						<input type = "text" name = "Name" class = "form-control" placeholder = "Name" required>
 					</div>
 					<div class = "col">
-						<input type = "text" id = "email" class = "form-control " placeholder = "E-mail address" required>
+						<input type = "text" name = "Email" class = "form-control " placeholder = "E-mail address" required>
 					</div>
 				</div> 
 				<div class = "row">
-					<textarea class = "form-control" id = "message" rows = "8" cols = "100" placeholder = "Your message here" required></textarea>
+					<textarea class = "form-control" name = "Message" rows = "8" cols = "100" placeholder = "Your message here" required></textarea>
 				</div>
 				<div class = "row">
 					<div class = "custom-control custom-checkbox">
-						<input type = "checkbox" class = "custom-control-input" id = "CVcheck">
+						<input type = "checkbox" name = "Want_CV" class = "custom-control-input" id = "CVcheck">
 						<label class = "custom-control-label" for = "CVcheck">Check here if you would like to receive my latest CV as a PDF</label>
 					</div>
+				<input type = "hidden" name = "_next" value = "thanks.html"/>
 				</div>
 				<button type = "submit" class = "btn btn-primary mb-2">Send now</button>
 			</form>
