@@ -1,5 +1,5 @@
 body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Didot", Palatino, serif;
 	margin: 10px;
 	padding: 10px;
 	width: 900px;
@@ -20,7 +20,7 @@ body {
 
 header {
 	padding: 20px 0;
-	font-family: Arial Narrow, sans-serif;
+	font-family: Perpetua, serif;
 	background-color: #ffffff;
 	opacity: 0.8;
 	border: 2px solid #ff5050;
@@ -35,13 +35,13 @@ footer .row {
 h1 {
 	font-weight: 700;
 	margin: 10;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Perpetua", Palatino, serif;
 }
 
 nav {
 	display: flex;
 	justify-content: flex-end;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Didot", Palatino, serif;
 	font-size: small;
 }
 
@@ -74,9 +74,9 @@ th, td {
 	background-size: cover;
 	color: #ffffff;
 	height: 250px;
-	border-left: 2px solid #ff5050;
-	border-right: 2px solid #ff5050;
-	border-bottom: 2px solid #ff5050;
+	border-left: 2px solid #E3DFFF;
+	border-right: 2px solid #E3DFFF;
+	border-bottom: 2px solid #E3DFFF;
 }
 
 .jumbotron h2 {
@@ -84,14 +84,15 @@ th, td {
 	font-weight: 700;
 	margin: 10;
 	color: White;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Perpetua", Palatino, serif;
 	text-shadow: 2px 2px 8px #000000;
 }
 
 .jumbotron h3 {
+	font-size: 48px;
 	margin: 0 20 20px;
 	color: White;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Perpetua", Palatino, serif;
 	text-shadow: 2px 2px 8px #000000;
 }
 
@@ -141,7 +142,7 @@ figure {
 footer {
 	font-size: 12px;
 	padding-top: 10px;
-	border: 1.5px dotted #ff3377;
+	border: 1.5px dotted #A49DD9;
 	background-color: White;
 	opacity: 0.7;
 	margin: 10;
