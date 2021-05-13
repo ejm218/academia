@@ -12,9 +12,9 @@ body {
 
 .content-main {
 	background-color: White;
-	border-left: 2px solid #6778B3;
-	border-right: 2px solid #6778B3;
-	border-bottom: 2px solid #6778B3;
+	border-left: 2px solid #967bb6;
+	border-right: 2px solid #967bb6;
+	border-bottom: 2px solid #967bb6;
 	padding: 7px;
 }
 
@@ -23,7 +23,7 @@ header {
 	font-family: Perpetua, serif;
 	background-color: #ffffff;
 	opacity: 0.8;
-	border: 2px solid #6778B3;
+	border: 2px solid #967bb6;
 }
 
 header .row, 
@@ -75,9 +75,9 @@ th, td {
 	background-size: cover;
 	color: #000000;
 	height: 250px;
-	border-left: 2px solid #6778B3;
-	border-right: 2px solid #6778B3;
-	border-bottom: 2px solid #6778B3;
+	border-left: 2px solid #967bb6;
+	border-right: 2px solid #967bb6;
+	border-bottom: 2px solid #967bb6;
 }
 
 .jumbotron h2 {
