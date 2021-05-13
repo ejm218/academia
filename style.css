@@ -4,7 +4,7 @@ body {
 	padding: 10px;
 	width: 900px;
 	margin: 0 auto;
-	background-image: url("flamingos.jpg");
+	background-color: #F0F8FF;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
