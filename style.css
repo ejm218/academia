@@ -12,9 +12,9 @@ body {
 
 .content-main {
 	background-color: White;
-	border-left: 2px solid #ff5050;
-	border-right: 2px solid #ff5050;
-	border-bottom: 2px solid #ff5050;
+	border-left: 2px solid #6778B3;
+	border-right: 2px solid #6778B3;
+	border-bottom: 2px solid #6778B3;
 	padding: 7px;
 }
 
@@ -23,7 +23,7 @@ header {
 	font-family: Perpetua, serif;
 	background-color: #ffffff;
 	opacity: 0.8;
-	border: 2px solid #ff5050;
+	border: 2px solid #6778B3;
 }
 
 header .row, 
@@ -43,6 +43,7 @@ nav {
 	justify-content: flex-end;
 	font-family: "Didot", Palatino, serif;
 	font-size: medium;
+	font-color: 
 }
 
 a {
@@ -70,13 +71,13 @@ th, td {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url("plants.jpg");
+	background-color: #d3d3d3;
 	background-size: cover;
 	color: #ffffff;
 	height: 250px;
-	border-left: 2px solid #E3DFFF;
-	border-right: 2px solid #E3DFFF;
-	border-bottom: 2px solid #E3DFFF;
+	border-left: 2px solid #6778B3;
+	border-right: 2px solid #6778B3;
+	border-bottom: 2px solid #6778B3;
 }
 
 .jumbotron h2 {
