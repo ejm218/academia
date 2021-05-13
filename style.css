@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	padding: 20px 0;
+	padding: 10px 0;
 	font-family: Perpetua, serif;
 	background-color: #ffffff;
 	opacity: 0.8;
@@ -73,7 +73,7 @@ th, td {
 	align-items: center;
 	background-color: #d3d3d3;
 	background-size: cover;
-	color: #ffffff;
+	color: #000000;
 	height: 250px;
 	border-left: 2px solid #6778B3;
 	border-right: 2px solid #6778B3;
@@ -84,17 +84,15 @@ th, td {
 	font-size: 48px;
 	font-weight: 700;
 	margin: 10;
-	color: White;
+	color: Black;
 	font-family: "Perpetua", Palatino, serif;
-	text-shadow: 2px 2px 8px #000000;
 }
 
 .jumbotron h3 {
 	font-size: 36px;
 	margin: 0 20 20px;
-	color: White;
+	color: Black;
 	font-family: "Perpetua", Palatino, serif;
-	text-shadow: 2px 2px 8px #000000;
 }
 
 section .row img {
